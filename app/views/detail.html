@@ -1,0 +1,13 @@
+  {% include "partials/head.html" %}    
+   <section>
+      <h1>{{ park.name }} {{ park.year }}</h1> 
+      {% if data[0].imgurl %}
+        {% for image in data %}
+          <img src="{{ image.imgurl.value }}" alt="">
+          <p>{{ image.title.value }}</p>
+        {% endfor %}
+      {% else %}
+        <p>Geen afbeeldingen gevonden...</p>
+      {% endif %}
+   </section>
+  {% include "partials/footer.html" %}
