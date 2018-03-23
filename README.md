@@ -7,6 +7,11 @@ I removed all javascript in this version and tried to enhence it.
 
 ## Enhencement  
 
+With browserify I tried to make an even better and faster javascript file. With the code used below the javascript is bundled automatically. Browserify uses all requires in the main js and bundles them in one file. running `npm run start` starts bundeling the code
+```
+"browserify": "browserify sources/js/main.js -o sources/js/bundle.js",
+```
+
 ## Set up
 1. Clone repository:
 ```
