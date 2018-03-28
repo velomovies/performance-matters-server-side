@@ -88,11 +88,11 @@ The first time I did an audit these where the numbers of the performance. I did 
 The app really upgraded in performance. The service worker was hard to work with for testing, but in the end it was great to use. Especially in the case that the user has no internet.
 
 ## Set up
-1. Clone repository:
+**1. Clone repository:**
 ```
 git clone https://github.com/velomovies/performance-matters-server-side.git
 ```
-2. Install dependencies:
+**2. Install dependencies:**
 The dependencies I use are:
 ```json
 {
@@ -111,7 +111,7 @@ To install all you do:
 npm install
 ```
 
-3. Build and start server:
+**3. Build and start server:**
 ```
 npm start
 ```
@@ -125,7 +125,8 @@ or
 npm run browsify
 ```
 
-4. Open [127.0.0.1:8000](127.0.0.1:8000) in your browser to see the app
+**4. Open the app**
+Open [127.0.0.1:8000](127.0.0.1:8000) in your browser to see the app
 
 ## License
 GPL-3.0 © Victor Zumpolle
