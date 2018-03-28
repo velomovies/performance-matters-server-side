@@ -87,6 +87,12 @@ The first time I did an audit these where the numbers of the performance. I did 
 
 The app really upgraded in performance. The service worker was hard to work with for testing, but in the end it was great to use. Especially in the case that the user has no internet.
 
+## TO DO
+
+The thing I would like to do in the future is showing the map again. I could do that client-side, but there is also a way to render everything server-side. If I would have more time (or money) I would invest in looking in to a way to do that.
+
+Next to the map I would have liked to make sure my app was a little bit more designed. I would like to add some more styling so it looks more attractive. For performance thats not a great thing, but there are a lot of ways to go around that problem.
+
 ## Set up
 **1. Clone repository:**
 ```
