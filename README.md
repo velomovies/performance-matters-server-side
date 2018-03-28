@@ -93,7 +93,6 @@ The app really upgraded in performance. The service worker was hard to work with
 git clone https://github.com/velomovies/performance-matters-server-side.git
 ```
 **2. Install dependencies:**
-The dependencies I use are:
 ```json
 {
 "dependencies": {
@@ -126,6 +125,7 @@ npm run browsify
 ```
 
 **4. Open the app**
+
 Open [127.0.0.1:8000](127.0.0.1:8000) in your browser to see the app
 
 ## License
