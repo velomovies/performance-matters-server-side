@@ -1,0 +1,16 @@
+{
+  "name": "Parken en plantsoenen van Amsterdam",
+  "short_name": "Bootstrap",
+  "start_url": "?homescreen=1",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#397367",
+  "description": "Een visualisatie van alle parken en plantsoenen van Amsterdam",
+  "dir": "auto",
+  "orientation": "portrait",
+  "icons": [{
+    "src": "/img/park.png",
+    "sizes": "300x300",
+    "type": "image/png"
+  }]
+}

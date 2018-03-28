@@ -2,11 +2,14 @@ const express = require('express')
 const app = express()
 const nunjucks = require('nunjucks')
 const request = require('request')
+const compression = require('compression')
+
+app.use(compression());
 
 // view engine setup
 app.use(express.static(__dirname + '/sources'))
 
-nunjucks.configure('views', {
+nunjucks.configure('sources/views', {
   autoescape: true,
   express: app
 })
@@ -107,7 +110,7 @@ app.get('/:id/:id2/:id3/:id4', function (req, res) {
     if (req.params.id4 == 'unknown') {
       park = {
         name: toTitleCase(req.params.id2.replace(/-/g, ' ')),
-        year: '????'
+        year: '(Datum onbekend)'
       }
     } else {
       park = {

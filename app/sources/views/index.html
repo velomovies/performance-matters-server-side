@@ -1,0 +1,9 @@
+  {% include "partials/head.html" %}    
+  <h1>Parken en plantsoenen van Amsterdam</h1>
+   <section>
+     {% for park in data %}
+      <a href="/{{ park.link }}/{% if park.year %}{{ park.year.value }}{% else %}unknown{% endif %}"><h2>{{ park.name }} {% if park.year %} {{ park.year.value }} {% endif %}</h2></a>
+    {% endfor %}
+     
+   </section>
+  {% include "partials/footer.html" %}

@@ -1,8 +1,0 @@
-  {% include "partials/head.html" %}    
-   <section>
-     {% for park in data %}
-      <h1><a href="/{{ park.link }}/{% if park.year %}{{ park.year.value }}{% else %}unknown{% endif %}">{{ park.name }} {% if park.year %} {{ park.year.value }}{% else %}???? {% endif %}</a></h1>
-    {% endfor %}
-     
-   </section>
-  {% include "partials/footer.html" %}
