@@ -90,7 +90,7 @@ The first time I did an audit these where the numbers of the performance. I did 
 > **Last audit (With checking the stylesheet)**
 ![Last audit](img/audit3.png)
 
-The app really upgraded in performance. The service worker was hard to work with for testing, but in the end it was great to use. Especially in the case that the user has no internet.
+The app really upgraded in performance. The service worker was hard to work with for testing, but in the end it was great to use. Especially in the case that the user has no internet. I had a increase of first meaningfull paint of -1.700ms.
 
 ## TO DO
 
