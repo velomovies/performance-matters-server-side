@@ -68,21 +68,26 @@ caches.open('bs-v1-pages')
 
 The difference between the old app and my enhanced version.
 
-> Old app
+### Network audits
+
+> **Old app**
 ![An audit of the network](img/network1.png)
 
-> Enhanced app
+> **Enhanced app**
 ![An audit of the network with enhancement](img/network2.png)
+
+
+### Performance audits
 
 The first time I did an audit these where the numbers of the performance. I did all enhancements above and it showed a great performance boost. 
 
-> First audit
+> **First audit**
 ![The first audit](img/audit1.png)
 
-> Audit after compression and minifying
+> **Audit after compression and minifying**
 ![Audit after minifying](img/audit2.png)
 
-> Last audit (With checking the stylesheet)
+> **Last audit (With checking the stylesheet)**
 ![Last audit](img/audit3.png)
 
 The app really upgraded in performance. The service worker was hard to work with for testing, but in the end it was great to use. Especially in the case that the user has no internet.
