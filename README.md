@@ -7,7 +7,7 @@ A server-side application. The app is changed to its bare minimum. You can only 
 
 ## Background
 
-I removed all javascript in this version and tried to enhence it. The app itself was already fast with the first paint, but didn't work without javascript. The app I made works server-side. I started a node server and made sure it would work without javascript. Next to that I made a few enhencements for the performancy. 
+I removed all javascript in this version and tried to enhance it. The app itself was already fast with the first paint, but didn't work without javascript. The app I made works server-side. I started a node server and made sure it would work without javascript. Next to that I made a few enhancements for the performancy. 
 
 I mostly checked the performance with the [lighthouse/audit tool in chrome](https://developers.google.com/web/tools/lighthouse/). That way I could see the diffence made by a few code changes. Below you can find most of the changes and the audit I did.
 
@@ -22,9 +22,9 @@ if(!document.querySelector('.offline-page')) {
 }
 ``` 
 
-## Enhencement  
+## Enhancement  
 
-The enhencements I did exsisted out of a few things. Below you can see the results I had with screenshots of the audits I did
+The enhancements I did exsisted out of a few things. Below you can see the results I had with screenshots of the audits I did
 
 With browserify I tried to make an even better and faster javascript file. With the code used below the javascript is bundled automatically. Browserify uses all requires in the main js and bundles them in one file. running `npm run start` starts bundeling the code
 ```json
@@ -66,15 +66,15 @@ caches.open('bs-v1-pages')
 
 ## Audits
 
-The difference between the old app and my enhenced version.
+The difference between the old app and my enhanced version.
 
 > Old app
 ![An audit of the network](img/network1.png)
 
-> Enhenced app
-![An audit of the network with enhencement](img/network2.png)
+> Enhanced app
+![An audit of the network with enhancement](img/network2.png)
 
-The first time I did an audit these where the numbers of the performance. I did all enhencements above and it showed a great performance boost. 
+The first time I did an audit these where the numbers of the performance. I did all enhancements above and it showed a great performance boost. 
 
 > First audit
 ![The first audit](img/performance1.png)
