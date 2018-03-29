@@ -7,7 +7,7 @@ A server-side application. The app is changed to its bare minimum. You can only 
 
 ## Background
 
-I removed all javascript in this version and tried to enhance it. The app itself was already fast with the first paint, but didn't work without javascript. The app I made works server-side. I started a node server and made sure it would work without javascript. Next to that I made a few enhancements for the performancy. 
+I removed all javascript in this version and tried to enhance it. The app itself was already fast with the first paint, but didn't work without javascript. The app I made works server-side. I started a node server and made sure it would work without javascript. Next to that I made a few enhancements for the performance. 
 
 I mostly checked the performance with the [lighthouse/audit tool in chrome](https://developers.google.com/web/tools/lighthouse/). That way I could see the diffence made by a few code changes. Below you can find most of the changes and the audit I did.
 
@@ -97,6 +97,8 @@ The app really upgraded in performance. The service worker was hard to work with
 The thing I would like to do in the future is showing the map again. I could do that client-side, but there is also a way to render everything server-side. If I would have more time (or money) I would invest in looking in to a way to do that.
 
 Next to the map I would have liked to make sure my app was a little bit more designed. I would like to add some more styling so it looks more attractive. For performance thats not a great thing, but there are a lot of ways to go around that problem.
+
+I would like to add a good working client-side loader. I made a start, but if I had more time I would have make that better.
 
 ## Set up
 **1. Clone repository:**
